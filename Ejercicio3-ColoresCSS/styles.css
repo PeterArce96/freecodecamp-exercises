@@ -1,17 +1,26 @@
 h1{
     text-align: center;
 }
+.container{
+    background-color: rgb(0,0,0);
+    /* color rgb (RED, GREEN, BLUE, desde 0 a 255
+    0 --> 0% de ese color
+    255 --> 100% de ese color */
+    padding: 10px 0;
+}
+
 .marker{
     height: 25px;
     width: 200px;
     margin: 10px auto;
 }
+
 .one{
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 .two{
-    background-color: green;
+    background-color: rgb(0, 127, 0);
 }
 .three{
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
 }
