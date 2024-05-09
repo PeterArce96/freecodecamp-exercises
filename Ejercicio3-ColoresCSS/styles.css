@@ -45,7 +45,7 @@ Para los colores en hexadecimal, 00 es 0% de ese color, y FF es 100%. De tal man
 */
 
 .red{
-    background: linear-gradient(90deg);
+    background: linear-gradient(180deg, rgb(255, 0, 0) 75%, rgb(0, 255, 0), rgb(0,0,255));
 }
 .green{
     background-color: #007F00
@@ -63,4 +63,5 @@ Para los colores en hexadecimal, 00 es 0% de ese color, y FF es 100%. De tal man
 
 /* GRADIENTES
     linear-gradient(gradientDirection, color1, color2, ...);
+        background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0,0,255));
 */
