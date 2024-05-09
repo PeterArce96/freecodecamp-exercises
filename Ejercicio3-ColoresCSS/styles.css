@@ -29,7 +29,7 @@ h1{
     Azur --> rgb(0, 127, 255);
     Rose --> rgb(255, 0, 127)
     */
-.red{
+/* .red{
     background-color: rgb(255, 0, 0);
 }
 .green{
@@ -37,4 +37,30 @@ h1{
 }
 .blue{
     background-color: rgb(0, 0, 0);
+} */
+
+/* Colores hexadecimales 
+empiezan con el carácter #, siguiendo seis caracteres entre 0-9 y A-F. El primer par de caracteres representa el rojo, el segundo el verde y el tercero el azul
+Para los colores en hexadecimal, 00 es 0% de ese color, y FF es 100%. De tal manera que #00FF00 se traduce en 0% rojo, 100% verde y 0% azul, siendo equivalente a rgb(0, 255, 0).
+*/
+
+.red{
+    background: linear-gradient(90deg);
 }
+.green{
+    background-color: #007F00
+}
+.blue{
+    background-color: hsl(240, 100%, 50%);
+}
+
+/* MODELO HSL COLORES
+    H: HUE
+    SATURATION: %
+    LUMINOSITY: %
+    background-color: hsl(240, 100%, 50%);
+*/
+
+/* GRADIENTES
+    linear-gradient(gradientDirection, color1, color2, ...);
+*/
