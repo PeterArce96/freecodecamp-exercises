@@ -51,7 +51,7 @@ Para los colores en hexadecimal, 00 es 0% de ese color, y FF es 100%. De tal man
     background: linear-gradient( #55680D, #71F53E, #116C31);
 }
 .blue{
-    background-color: hsl(240, 100%, 50%);
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
 }
 
 /* MODELO HSL COLORES
