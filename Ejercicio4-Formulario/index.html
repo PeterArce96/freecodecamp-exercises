@@ -32,15 +32,17 @@
                 <input type="password" id="new-password" pattern="[a-z0-5]{8,}" required> 
             </label>
         </fieldset>
-            <label for=""><input type="radio" name="" id=""></label>
-            <label for=""><input type="radio" name="" id=""></label>
+            
         <fieldset>
-
+            <legend>Account type (required)</legend>
+            <label for="personal-account"><input type="radio" name="account-type" id="personal-account" checked> Personal</label>
+            <label for="business-account"><input type="radio" name="account-type" id="business-account"> Business</label>
         </fieldset>
 
         <fieldset>
 
         </fieldset>
+        <label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions" required></label>
         <input type="submit" value="Submit">
     </form>
 
