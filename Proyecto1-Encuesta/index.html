@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
-    <form id="survey-form" action="">
+    <form id="survey-form">
         <label for="name" id="name-label"> Name
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
         </label>
@@ -34,37 +35,37 @@
         <fieldset>
             <legend>Would you recommend freeCodeCamp to a friend? </legend>
             <label for="definitely">
-                <input type="radio" name="option-recomend" id="definitely" checked> Definitely
+                <input class="inline" type="radio" name="option-recomend" id="definitely" checked> Definitely
             </label>
             <label for="maybe">
-                <input type="radio" name="option-recomend" id="maybe"> Maybe
+                <input class="inline" type="radio" name="option-recomend" id="maybe"> Maybe
             </label>
             <label for="not-sure">
-                <input type="radio" name="option-recomend" id="not-sure"> Not sure
+                <input class="inline" type="radio" name="option-recomend" id="not-sure"> Not sure
             </label>
         </fieldset>
 
         <fieldset>
             <legend>What would you like to see improved? (Check all that apply)</legend>
             <label for="frontend">
-                <input type="checkbox" name="frontend" id="frontend" value="1"> Front-end Projects
+                <input class="inline" type="checkbox" name="frontend" id="frontend" value="1"> Front-end Projects
             </label>
             <label for="backend">
-                <input type="checkbox" name="backend" id="backend" value="2"> Back-end Projects
+                <input class="inline" type="checkbox" name="backend" id="backend" value="2"> Back-end Projects
             </label>
             <label for="challenges">
-                <input type="checkbox" name="challenges" id="challenges" value="3"> Challenges
+                <input class="inline" type="checkbox" name="challenges" id="challenges" value="3"> Challenges
             </label>
             <label for="videos">
-                <input type="checkbox" name="videos" id="videos" value="4"> Videos
+                <input class="inline" type="checkbox" name="videos" id="videos" value="4"> Videos
             </label>
             <label for="additions-courses">
-                <input type="checkbox" name="additions-courses" id="additions-courses" value="5"> Additional Courses
+                <input class="inline" type="checkbox" name="additions-courses" id="additions-courses" value="5"> Additional Courses
             </label>
         </fieldset>
 
         <label for="textarea"> Any comments or suggestions?
-            <textarea name="textarea" id="textarea" placeholder="Enter your comment here"></textarea>
+            <textarea name="textarea" id="textarea" placeholder="Enter your comment here" rows="6"></textarea>
         </label>
 
         <input type="submit" value="Submit">
