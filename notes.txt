@@ -1,0 +1,2 @@
+SVG
+Una propiedad útil de un SVG (gráficos vectoriales escalables) es que contiene un atributo path que permite escalar la imagen sin afectar la resolución de la imagen resultante.
