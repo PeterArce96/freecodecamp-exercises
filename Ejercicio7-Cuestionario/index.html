@@ -26,18 +26,18 @@
         <!-- action, para saber la ruta de envío del formulario -->
         <form action=https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
             <section role="region" aria-labelledby="student-info">
-                <h2 id="student-info">INFO</h2>
+                <h2 id="student-info">Student-INFO</h2>
                 <div class="info">
                     <label for="student-name">Nombre: </label>
-                    <input id="student-name"/>
+                    <input id="student-name" type="text" name="name"/>
                 </div>
                 <div class="info">
                     <label for="student-email">Correo: </label>
-                    <input id="student-email"/>
+                    <input id="student-email" type="email" name="email"/>
                 </div>
                 <div class="info">
-                    <label for="birth-date">Fecha de Nacimiento: </label>
-                    <input id="birth-date"/>
+                    <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+                    <input id="birth-date" type="date" name="date"/>
                 </div>
                 
             </section>
