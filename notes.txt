@@ -3,3 +3,6 @@ Una propiedad útil de un SVG (gráficos vectoriales escalables) es que contiene
 
 EJERCICIO 7  - ROLE in section
 Para aumentar la accesibilidad de la página, el atributo role puede ser usado para indicar el propósito detrás de un elemento en la página para las tecnologías de asistencia. El atributo role es una parte de la Iniciativa de Accesibilidad Web (WAI, por sus siglas en inglés), y acepta valores predefinidos.
+
+aria-labelledby
+Cada función de región requiere una etiqueta, que ayuda a los usuarios de lectores de pantalla a comprender el propósito de la región. Un método para agregar una etiqueta es agregar un elemento de encabezado dentro de la región y luego hacer referencia a él con el atributo aria-labelledby.
